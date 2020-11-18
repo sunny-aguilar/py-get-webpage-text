@@ -11,6 +11,7 @@ soup = bs4.BeautifulSoup(webpage)
 
 print(soup.get_text())
 
-# create a file
+# create a file, write to it, and save it
 f = open("web-text.txt", "w+");
 f.write(soup.get_text());
+f.close();

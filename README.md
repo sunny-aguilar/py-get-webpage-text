@@ -5,3 +5,4 @@ This is a simple text scraper that can pull the text from a web page. You only n
 This utility relies on Beautiful Soup.
 
 ## How to Run
+Run using Python 3 and above using your favorite terminal.

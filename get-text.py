@@ -5,13 +5,17 @@
 import bs4
 import urllib.request
 
-link = "https://thefraternityadvisor.com/300-situations-sorority-and-fraternity-presidents-must-overcome/"
-webpage = str(urllib.request.urlopen(link).read())
-soup = bs4.BeautifulSoup(webpage)
+def main():
+  link = "https://thefraternityadvisor.com/300-situations-sorority-and-fraternity-presidents-must-overcome/"
+  webpage = str(urllib.request.urlopen(link).read())
+  soup = bs4.BeautifulSoup(webpage)
 
-print(soup.get_text())
+  print(soup.get_text())
 
-# create a file, write to it, and save it
-f = open("web-text.txt", "w+");
-f.write(soup.get_text());
-f.close();
+  # create a file, write to it, and save it
+  f = open("web-text.txt", "w+");
+  f.write(soup.get_text());
+  f.close();
+
+if __name__ == "__main__":
+  main()

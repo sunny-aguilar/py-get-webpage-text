@@ -6,3 +6,6 @@ This utility relies on Beautiful Soup.
 
 ## How to Run
 Run using Python 3 and above using your favorite terminal.
+
+### Genesis of this Program
+I created this script when 

@@ -8,4 +8,4 @@ soup = bs4.BeautifulSoup(webpage)
 print(soup.get_text())
 
 # create a file
-
+f = open("web-text.txt", "w+");

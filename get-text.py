@@ -1,7 +1,6 @@
 # Project Name:         a simple program that scrapes the text from a website and saves it into a text file.
 # Author:               Sandro Aguilar
 # Date:                 November 18, 2020
-
 import bs4
 import urllib.request
 

@@ -16,5 +16,6 @@ def main():
   f.write(soup.get_text());
   f.close();
 
+
 if __name__ == "__main__":
   main()

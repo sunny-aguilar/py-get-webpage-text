@@ -16,7 +16,7 @@ function push_commit()
 function commit()
 {
     # commt changes only
-    git commit -am 'wetext scraper'
+    git commit -am 'webtext scraper'
 }
 
 # what to run

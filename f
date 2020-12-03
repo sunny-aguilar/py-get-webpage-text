@@ -8,7 +8,7 @@
 function push_commit()
 {
     #commit changes
-    git commit -am 'web text scraper'
+    git commit -am 'webp text scraper'
     # push to github
     git push
 }

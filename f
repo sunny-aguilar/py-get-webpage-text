@@ -8,7 +8,6 @@
 function push_commit()
 {
     #commit changes
-    
     git commit -am 'wetext scraper'
     # push to github
     git push

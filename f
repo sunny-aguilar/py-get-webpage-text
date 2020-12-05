@@ -41,7 +41,7 @@ elif [ "$1" == 'runs' ]; then
 
 elif [ "$1" == 'zip' ]; then
     # zip up files
-    zip -D aguilasa.zip index.js packge.json public/cs/syle.c vews404.hadebars views/500.hanlebars views/get-api.handleba
+    zip -D aguilasa.zip index.js packge.json public/cs/syle.c vews404.hadebars views/00.hanlebars views/get-api.handleba
     exit 0
 
 fi

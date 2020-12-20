@@ -11,6 +11,7 @@ def main():
 
   print(soup.get_text())
 
+
   # create a file, write to it, and save it
   f = open("web-text.txt", "w+");
   f.write(soup.get_text());
